@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="./asset/images/favicon.ico">
+    <link rel="stylesheet" href="./asset/css/style.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Jost:ital,wght@0,400;0,600;0,700;1,600&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&family=Quicksand:wght@400;700&family=Raleway:wght@200;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sosialisasi Phising</title>
+</head>
+<body>
+    <navbar class="navbar-container">
+        <div class="logo-container">
+            <img src="./asset/images/logo_tel-u.png" alt="Logo IT Consultant" class="logo">
+        </div>
+        <div class="menu-container">
+            <div class="main-menu">
+                <ul class="tab-list" style="margin-bottom: 0px;">
+                    <li class="tab-menu"><a href="#home" class="tab-link">Home</a></li>
+                    <li class="tab-menu"><a href="#service" class="tab-link">Visi & Misi</a></li>
+                    <li class="tab-menu"><a href="#about" class="tab-link">Definisi</a></li>
+                    <li class="tab-menu"><a href="#materi" class="tab-link">Jenis-Jenis</a></li>
+                    <li class="tab-menu"><a href="#tips" class="tab-link">Tips Terhindar</a></li>
+                    <li class="tab-menu"><a style="text-decoration: none;"><button id="changeCssBtn">Let's Talk</button></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu-toggle">
+            <input type="checkbox"></input>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </navbar>
+
+    <section id="home">
+        <div class="narasi-home">
+            <div class="home-text">
+                <h1 style="display: inline;">Waspada Phishing, <i style="color: #FF6E00;">Gen-Z</i> <span style="color: #FF6E00;"> Melek Digital!</span></h1>
+                <p class="full-text-home">
+                    Kami adalah sumber terkemuka dalam memberikan pemahaman mendalam tentang ancaman phishing dan cara melindungi diri dari beberapa serangan online yang merugikan. Disini, kami berkomitmen untuk memberikan edukasi yang mudah dipahami dan langkah-langkah praktis untuk menjaga keamanan online Anda. Kami menjelaskan secara rinci apa itu phishing,beberapa jenis phising yang sering terjadi, dan bagaimana caranya agar terhindar dari phising.
+                </p>
+                <p class="frag-text-home" hidden>
+                    Kami berkomitmen memberikan pemahaman tentang ancaman phishing serta langkah-langkah praktis untuk menjaga keamanan online. Dengan penjelasan singkat, kami mengidentifikasi phishing, jenis-jenisnya, dan cara menghindarinya.
+                </p>
+            </div>
+            <button class="btn-explore" data-bs-toggle="modal" data-bs-target="#exampleModal1"><p>Our Team</p></button>
+        </div>
+        <div class="image-home">
+            <img alt="Image home" class="elipse-img">
+            <div class="elipse1"></div>
+            <div class="elipse2"></div>
+            <div id="back-top"></div>
+        </div>
+        <div class="background-elipse">
+            <div class="elipse3"></div>
+            <div class="elipse4"></div>
+        </div>
+    </section>
+
+    <section id="go-serve">
+        <div class="judul-service" id="service">
+            <p>Visi & Misi</p>
+            <h2><i style="color: #FF6E00;">Kelompok 4 </i> Informatika Untuk Masyaraket</h2>
+        </div>
+
+        <div class="isi-layanan">
+
+            <div class="card">
+                <div class="card-head">
+                    <h5>Misi</h5>
+                    <div class="cat-icon">
+                        <i class="fa fa-lightbulb-o"></i>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="text-frag text-center">Dengan meningkatnya ancaman phishing, misi kami adalah memberdayakan...</p>
+                    <p class="text-full" style="text-align: justify;" hidden>
+                        Misi kami adalah melindungi pengguna internet dari serangan phishing. Kami percaya bahwa pendidikan adalah kunci untuk perlindungan yang efektif. Oleh karena itu, kami menawarkan sumber daya, panduan, dan informasi terbaru untuk membantu pengguna internet mengenali dan menghindari serangan phishing.
+                    </p>
+                    <div class="w-100 d-flex">
+                        <button type="button" class="btn btn-outline-warning more-vm mx-auto">More</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-head">
+                    <h5>Visi</h5>
+                    <div class="cat-icon">
+                        <i class="fa fa-shield" style="font-size: 60px;"></i>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="text-frag text-center">Menjadi sumber terpercaya untuk edukasi dan informasi tentang phishing...</p>
+                    <ol class="text-full" style="display: flex; flex-direction: column; gap: 20px;" hidden>
+                        <li>Menjadi sumber terpercaya untuk edukasi dan informasi tentang phishing</li>
+                        <li>Memberdayakan pengguna internet untuk mengenali dan menghindari phishing</li>
+                        <li>Menjadikan internet menjadi tempat yang lebih aman bagi semua orang</li>
+                    </ol>
+                    <div class="w-100 d-flex">
+                        <button type="button" class="btn btn-outline-warning more-vm mx-auto">More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="background-service">
+            <div class="elipse5"></div>
+            <div class="elipse6"></div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="wadah-about">
+            <div class="narasi-about">
+                <div class="judul-about">
+                    <p>Definisi</p>
+                    <h2>Apa si itu <i style="color: #FF6E00;">Phising</i> ?</h2>
+                </div>
+                <p class="narasi">
+                    Serangan phishing adalah suatu bentuk serangan siber di mana penyerang berusaha untuk memperoleh informasi rahasia, seperti kata sandi dan data keuangan, dengan menyamar sebagai entitas tepercaya. Serangan phishing sering kali dilakukan melalui email palsu, situs web palsu, atau pesan teks yang dirancang untuk membuat korban percaya bahwa mereka berkomunikasi dengan entitas resmi, seperti bank, pemerintah, atau perusahaan terkemuka.
+                </p>
+            </div>
+            <div class="about-img">
+                <div class="wadah-baru" style="position: absolute;">
+                    <img src="./asset/images/img-home.png" alt="Phising Image" class="img-elipse">
+                    <div class="elipse7"></div>
+                    <div class="elipse8"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="materi">
+        <div class="judul-materi">
+            <p>Jenis-Jenis</p>
+            <h2>Apa saja jenis-jenis <i style="color: #FF6E00;">Phising</i> yang ada?</h2>
+        </div>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" style="z-index: 0;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="button-materi active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="button-materi" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class="button-materi"aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" class="button-materi"aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item card-materi active" style="display: flex; justify-content: center;">
+                    <div class="card d-block border-dark" style="width: 90vw; max-width: 700px; border-color: red;">
+                        <div class="card-header"><h5 class="card-title" style="color: #FF6E00;">Email Phising</h5></div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Bayangkan Anda menerima email yang terlihat seperti berasal dari bank atau layanan online yang Anda gunakan. Pesan itu bisa mengatakan ada masalah dengan akun Anda dan meminta Anda untuk segera mengklik tautan atau memberikan informasi pribadi untuk 'memperbaikinya'. Namun, email itu sebenarnya palsu. Ketika Anda mengikuti permintaan tersebut, tautan yang disediakan akan membawa Anda ke situs web palsu yang dibuat untuk mencuri informasi Anda seperti kata sandi, nomor kartu kredit, atau informasi penting lainnya.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item card-materi" style="display: flex; justify-content: center;" hidden>
+                    <div class="card d-block border-dark" style="width: 90vw; max-width: 700px; border-color: red;">
+                        <div class="card-header"><h5 class="card-title" style="color: #FF6E00;">Manipulate Phising</h5></div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Penyerang tidak selalu hanya menggunakan email. Mereka juga bisa memanipulasi Anda melalui pesan teks, WhatsApp, atau media sosial lainnya. Mereka menjanjikan peluang investasi yang menggiurkan atau tawaran pekerjaan yang menarik, tapi sebenarnya itu hanyalah trik untuk mendapatkan informasi pribadi Anda. Misalnya, mereka bisa menjanjikan pengembalian uang besar tetapi sebenarnya itu hanyalah penipuan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item card-materi" style="display: flex; justify-content: center;" hidden>
+                    <div class="card d-block border-dark" style="width: 90vw; max-width: 700px; border-color: red;">
+                        <div class="card-header"><h5 class="card-title" style="color: #FF6E00;">Application Phising</h5></div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Serangan ini bisa melibatkan penciptaan situs web atau aplikasi yang sangat mirip dengan yang asli. Mereka membuatnya tampak serupa dengan situs bank atau toko online yang Anda gunakan sehari-hari. Tujuannya adalah agar Anda memasukkan informasi pribadi Anda ke dalam situs palsu itu. Sehingga mereka bisa mencuri data Anda tanpa sepengetahuan Anda.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item card-materi" style="display: flex; justify-content: center;" hidden>
+                    <div class="card d-block border-dark" style="width: 90vw; max-width: 700px; border-color: red;">
+                        <div class="card-header"><h5 class="card-title" style="color: #FF6E00;">Link Phising</h5></div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Penyerang akan membuat tautan atau URL yang sangat mirip dengan yang asli. Mereka menggunakan teknik seperti typosquatting (membuat domain yang mirip namun memiliki kesalahan ketik) atau homograph attack (menggunakan karakter yang mirip untuk menipu). Ketika Anda mengklik tautan tersebut, Anda akan diarahkan ke situs web palsu yang sengaja dibuat untuk mencuri informasi Anda.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev button-prev-materi" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next button-next-materi" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="background-materi">
+            <div class="elipse9"></div>
+            <div class="elipse10"></div>
+        </div>
+    </section>
+
+    <section id="tips">
+        <div class="judul-materi">
+            <p>Cara Menghindari</p>
+            <h2>Tips agar tehindar dari <i style="color: #FF6E00;">Phising</i></h2>
+        </div>
+        <div class="card card-list-tips" style="width: 90vw; max-width: 900px; margin: 0 auto; overflow: hidden;">
+            <div class="card-header;" style="font-size: 22px;" >
+                <strong>Berikut adalah beberapa saran dari kami agar Anda tidak mengalami penipuan di dunia maya/phising:</strong>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <p style="z-index: 1;">
+                        Selalu periksa keaslian alamat website yang akan dituju baik itu yang dikirim oleh teman atau lainnya terutama yang dikirimkan oleh orang asing.
+                    </p>
+                </li>
+                <li class="list-group-item">
+                    <p style="z-index: 1;">
+                        Jika Anda mendapatkan telpon yang meminta informasi pribadi atau ajakan yang berhubungan dengan transaksi keuangan, maka lebih baik untuk memverifikasi identitas penelpon.
+                    </p>
+                </li>
+                <li class="list-group-item">
+                    <p style="z-index: 1;">
+                        Gunakan autentikasi 2 faktor pada akun Anda.
+                    </p>
+                </li>
+                <li class="list-group-item">
+                    <p style="z-index: 1;">
+                        Selalu update perangkat lunak yang Anda miliki terutama keamanan.
+                    </p>
+                </li>
+                <li class="list-group-item">
+                    <p style="z-index: 1;">
+                        Jika suatu website memaksa unduhan aplikasi tanpa izin Anda, lebih baik langsung hapus filenya dan jangan pernah mengunjungi website tersebut.
+                    </p>
+                </li>
+                <li class="list-group-item">
+                    <p style="z-index: 1;">
+                        Selalu periksa riwayat akun Anda, laporkan jika Anda mengalami kecurigaan.
+                    </p>
+                </li>
+                <li class="list-group-item">
+                    <p style="z-index: 1;">
+                        Hindari penggunaan wifi ditempat umum terutama ketika berhubungan dengan data pribadi ataupun transaksi keuangan.
+                    </p>
+                </li>
+            </ul>
+            <div class="backgroung-card-tips">
+                <div class="elipse11"></div>
+                <div class="elipse12"></div>
+                <div class="elipse13"></div>
+                <div class="elipse14"></div>
+            </div>
+        </div>
+    </section>
+
+      <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row-footer">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About Group 4 IUM</h6>
+                    <p class="text-justify">Kelompok 4 IUM akan menjadi sumber terpercaya untuk memberikan pemahaman mendalam tentang phishing dan cara melindungi diri dari serangan online. Hal ini dilakukan karena banyaknya penipuan yang terjadi di dunia maya yang mengakibatkan kerugian. Kami berkomitmen untuk memberikan edukasi yang mudah dipahami dan langkah-langkah praktis untuk menjaga keamanan online.
+                    </p>
+                </div>
+                <div class="footer-detail">
+                    <div class="col-xs-6 col-md-3" style="width: 50%;">
+                        <h6 class="h6-link"><a style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#exampleModal1">Our Team</a></h6>
+                        <ul class="footer-links">
+                            <li><a class="profile-team" data-bs-toggle="modal" data-bs-target="#exampleModal1">Maulana Malik</a></li>
+                            <li><a class="profile-team" data-bs-toggle="modal" data-bs-target="#exampleModal1">Irsyadi Habib</a></li>
+                            <li><a class="profile-team" data-bs-toggle="modal" data-bs-target="#exampleModal1">Rayyen Benoxyto</a></li>
+                            <li><a class="profile-team" data-bs-toggle="modal" data-bs-target="#exampleModal1">Muhammad Irhaz</a></li>
+                        </ul>
+                    </div>
+        
+                    <div class="col-xs-6 col-md-3" style="width: 50%;">
+                        <h6>Quick Links</h6>
+                        <ul class="footer-links">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#service">Visi & Misi</a></li>
+                            <li><a href="#about">Definisi Phising</a></li>
+                            <li><a href="#materi">Jenis-Jenis Phising</a></li>
+                            <li><a href="#tips">Tips Terhindar</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">&copy; 2023 - Kelompok 4 IUM
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="github" href="https://github.com/lubismaulana"><i class="fa fa-github"></i></a></li>
+                        <li><a class="twitter" href="https://twitter.com/TelUniversity"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="instagram" href="https://www.instagram.com/telkomuniversity/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a class="linkedin" href="https://www.linkedin.com/school/telkom-university/"><i class="fa fa-linkedin"></i></a></li>   
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;"
+            >
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Kelompok 4 IUM</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleDark2" class="carousel carousel-dark slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item profile-list active">
+                                <div class="profile-teams">
+                                    <h2 style="text-align: center; color: #FF6E00;">Ketua</h2>
+                                    <img src="./asset/images/maulana.png" alt="Foto Maulana" class="rounded-circle" style="margin: 0 auto; padding: 5px; width: 150px; height: 150px; border-style: solid; border-width: 5px; border-color: #FF6E00;">
+                                    <table class="table table-borderless">
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">Nama</th>
+                                                <td>Maulana Malik Ibrahim Lubis</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">NIM</th>
+                                                <td>1301204222</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Peran</th>
+                                                <td>Web Developer & UI/UX Designer</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="carousel-item profile-list" hidden>
+                                <div class="profile-teams">
+                                    <h2 style="text-align: center; color: #FF6E00;">Anggota</h2>
+                                    <img src="./asset/images/habib.png" alt="Foto Irsyadi" class="rounded-circle" style="margin: 0 auto; padding: 5px; width: 150px; height: 150px; border-style: solid; border-width: 5px; border-color: #FF6E00;">
+                                    <table class="table table-borderless">
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">Nama</th>
+                                                <td>Irsyadi Habib</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">NIM</th>
+                                                <td>1301204327</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Peran</th>
+                                                <td>UI/UX Designer & Penulis Konten</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="carousel-item profile-list" hidden>
+                                <div class="profile-teams">
+                                    <h2 style="text-align: center; color: #FF6E00;">Anggota</h2>
+                                    <img src="./asset/images/rayyen.png" alt="Foto Rayyen" class="rounded-circle" style="margin: 0 auto; padding: 5px; width: 150px; height: 150px; border-style: solid; border-width: 5px; border-color: #FF6E00;">
+                                    <table class="table table-borderless">
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">Nama</th>
+                                                <td>Rayyen Benoxyto Pasaribu</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">NIM</th>
+                                                <td>1304211055</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Peran</th>
+                                                <td>Penulis Konten & Penulis Laporan</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="carousel-item profile-list" hidden>
+                                <div class="profile-teams">
+                                    <h2 style="text-align: center; color: #FF6E00;">Anggota</h2>
+                                    <img src="./asset/images/irhaz.png" alt="Foto Irhaz" class="rounded-circle" style="margin: 0 auto; padding: 5px; width: 150px; height: 150px; border-style: solid; border-width: 5px; border-color: #FF6E00;">
+                                    <table class="table table-borderless">
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">Nama</th>
+                                                <td>Muhammad Irhaz Adha</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">NIM</th>
+                                                <td>1301218708</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Peran</th>
+                                                <td>Web Developer & Penulis Laporan</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev button-prev-profil" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next button-next-profil" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="./asset/js/script.js"></script>
+    <script>
+        function changeStyle(this) {
+            let link = document.createElement('link');
+            link.href = 'style.css';
+            link.rel = 'stylesheet';
+            link.href = 'style.css';
+            link.id = 'dynamicCss';
+            document.head.appendChild(link);
+            this.onclick = "lightmode";
+        };
+
+        function removeStyle() {
+            let dynamicCss = document.getElementById('dynamicCss');
+            dynamicCss.parentNode.removeChild(dynamicCss);
+            this.id = "changeCssBtn";
+        };
+    </script>
+</body>
+</html>
